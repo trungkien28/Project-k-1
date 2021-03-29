@@ -1,0 +1,37 @@
+a{
+	color: #34404b;
+	font-size: 18px;
+	font-weight: 400; /*100 300 400 500 600 700 800 900 do dam cua chu*/
+	line-height: 24px;/*do cao cua chu*/
+	font-family: Arial;
+	text-decoration:none;/* none undelinr overline line-through;*/
+}
+p{
+	/*text-align: center;/* left center right justify can le */
+	/*text-indent: 100px;/* viet cach dau dong bao nhieu */
+}
+.item{
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	/*border: 1px solid green;/*solid dotted dashed*//*duong vien bao quanh*/
+	background-color: #ffffff;/*mau nen*/
+	float: left;/*don item thanh 1 phia*/
+	margin: 15px;/*khoang cach giua cac item*/
+
+	/*padding: 20;/*khoang cach giua cac item nhung co them vao item khoang cach do*/
+}
+span{
+	text-align: center;
+	color: red;
+}
+body{
+	background-color: #f4f6f8;
+	margin-top: 100px;
+	margin-left:200px;	
+	
+}
+
+
+
+

@@ -1,0 +1,699 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f4f6f8;
+	font-family: 'Spicy Rice', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	color: #28313b;
+	line-height: 1.15;
+}
+a{
+	color: #28313b;
+	text-decoration: none;
+}
+li{
+	/*list-style: none;  */
+}
+p{
+
+}
+span{
+
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.section{
+	float: left;
+	width: 100%;
+}	
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.section_1{
+	float: left;
+	height: 50px;
+	background-color: #ffffff;
+}
+.section_1_1{
+	float: left;
+	width: 50%;	
+	margin-top: 15px;
+}
+.section_1_2{
+	float: right;
+	width: 50%;
+	text-align: right;	
+	margin-top: 15px;
+}
+.section_2{
+	height: 100px;
+	background-color: #ffffff;
+	margin-top: 5px;
+	float: left;
+}
+.section_2_1{
+	float: left;
+	width: 20%;
+    margin-top: 30px;
+}
+.section_2_2{
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-top: 40px;
+}
+
+
+.section_2_3{
+	float: left;
+	width: 30%;
+ 	text-align: right;
+ 	margin-top: 20px;
+}
+.section_3{
+	float: left;
+	height: 100%;
+     
+	margin-top: 80px;
+}
+.section_3_1{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.block{
+	float:left;
+	width: calc(100% - 60px);
+	background-color: #ffffff;
+	margin-bottom: 30px;
+	padding: 30px;
+
+}
+.block h3{
+	color: #ff5912;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+.categories a{
+	font-size: 14px;
+	font-weight: 500;
+	float:left;
+	width: 100%;
+	padding: 10px 0;
+}
+.PriceFiltter input[type=number]{
+	width: 40px;
+	height: 20px;
+	margin-top: 20px;
+}
+.sizes li{
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	list-style: none;
+}
+.sizes input[type=checkbox]{
+	margin-right: 5px;
+	display: none;
+}
+.sizes li label:before{
+	content: " ";
+	width: 3px;
+	height: 3px;
+	border:5px solid #f4f6f8;
+	background-color: #f4f6f8;
+	display: inline-block;
+	margin-right: 10px;
+}
+.sizes li input[type=checkbox]:checked + label{
+	color: #ff5912;
+}
+.sizes li input[type=checkbox]:checked + label:before{
+	border:5px solid #ff5912;
+}
+.brands li{
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	list-style: none;
+}
+.brands input[type=checkbox]{
+	margin-right: 5px;
+	display: none;
+}
+.brands li label:before{
+	content: " ";
+	width: 3px;
+	height: 3px;
+	border:5px solid #f4f6f8;
+	background-color: #f4f6f8;
+	display: inline-block;
+	margin-right: 10px;
+}
+.brands li input[type=checkbox]:checked + label{
+	color: #ff5912;
+}
+.brands li input[type=checkbox]:checked + label:before{
+	border:5px solid #ff5912;
+}
+.section_3_2{
+	float: left;
+	width: calc(75% - 30px);
+	padding-left: 30px;
+	height: 100%;
+	
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;	
+}
+.exeem{
+	float:left;
+	width: calc(100% - 60px);
+	background-color: #ffffff;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+.circle{
+	text-align: center;
+}
+.rows{
+	margin-top: 5px;	
+}
+.circle span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #ff5912;
+	border:1px solid #ff5912;
+	border-radius: 100%;
+ }
+.item{
+	float:left;
+	width: calc(100% / 3 - 30px);
+	text-align: center;
+	padding:0 15px 30px;
+}
+.item .item-content{
+	float:left;
+	width: 100%;
+	background-color: #ffffff;
+	height: 265px;
+}
+.item .item-content img{
+	margin-top: 10px;
+}
+.item1 p{
+	padding-top: 20px;
+}
+#price-tag1{
+	color: #ffb69e;
+}
+.section_4{
+	float: left;
+	height: 120px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+	width: 87%;
+	margin-left: 90px;
+	margin-top: 100px;
+}
+.section_4_1{
+	margin-top: 50px;
+	float: left;
+	width: 50%;
+	text-indent: 20px;
+}
+#New-letter{
+	color : #ff5912;
+	font-size: 18px;
+}
+.section_4_2{
+	float: left;
+	width: 50%;
+	text-align: right;
+	margin-top: 40px;
+}
+.section_4_2_1{
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.section_4_2_2 a img{
+	margin-top: -30px;
+	margin-right: 70px;
+}
+.section_5{
+	float: left;
+	height: 250px;
+	background-color: #ffffff;
+}
+.section_5_1{
+	float: left;
+	width: 30%;
+	margin-top: 80px;
+}
+.section_5_2{
+	float: left;
+	width: 55%;
+
+}
+.section_5_2_1{
+	float: left;
+	width: calc(100% / 3);	
+	margin-top: 60px;
+}
+.exem li{
+	padding: 10px 0;
+}
+.section_5_2_2{
+	float: left;
+	width: calc(100% / 3);
+	margin-top: 60px;
+}
+.section_5_2_3{
+	float: left;
+	width: calc(100% / 3);
+	margin-top: 60px;
+}
+.section_5_3{
+	float: left;
+	width: 15%;
+	margin-top: 80px;
+}
+.section_5_3 img{
+	margin-top: 20px;
+}
+#payment{
+	color: #ff5912;
+	font-size: 16px;
+}
+/*@media screen and (min-width: 992px) and (max-width: 1200px){
+	.container{
+		width: 970px;
+		background-color: black;
+	}
+	.item{
+		width: calc(100% / 2 -30px);
+	}
+}*/
+.section_3s{
+	float: left;
+	margin-top: 5px;
+	background-color: #ffffff;	
+}
+.section_3s_1{
+	float: left;
+	width: 30%;	
+}
+.hop{
+	margin-top: 10px;
+}
+.section_3s_1_1{
+	text-indent: 100px;
+	margin-top: 100px;
+}
+.hop1{	
+	float:left;
+	width: calc(100% / 3 - 30px);
+	text-align: center;
+	padding:0 15px 30px;
+	height: 265px;
+}
+.anh{
+	background-color: #f4f6f8;
+	float:left;
+	width: 100%;
+	height: 20%;
+	margin-top: 10px;
+	text-align: center;	
+}
+.section_3s_1_2_2 .anh img{
+	margin-top: 7px;
+}
+.section_3s_1_2{	
+	text-align: center;	
+}
+.section_3s_2{
+	float: left;
+	width: 70%;
+}
+#full{
+	font-size: 60px;	
+	margin-top: 100px;	
+	color: #ff5912;
+}
+.chu{	
+	margin-left: 100px;
+}
+#halfjacket{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.chunho p{
+	margin-top: 10px;
+}
+.chu p img{
+	margin-top: 30px;
+}
+.chu .choo{
+	padding-top: 10px;
+}
+.choo input[type=checkbox]{
+	display: none;
+} 
+.choo input[type=checkbox]:checked + label{
+	color: #ff5912;
+}
+.oderss{
+	float: left;
+	margin-top: 50px;
+}
+.oderss a span img{
+	margin-bottom: -20px;
+}
+.section_4s{
+	float: left; 
+	text-align: center;
+}
+.section_4s_1{
+	width: 100%;
+}
+.section_4s_1_1{
+	margin-top: 100px;
+	margin-left: 150px;
+}
+.chu4{
+	margin-bottom: 25px;
+	font-size: 25px;	
+}
+.section_4s_2{
+	width: 100%;
+}
+.section_4s_2 .item{
+	float:left;
+	width: calc(100% / 4 - 140px);
+	text-align: center;	
+	height: 265px;
+	margin-top: 100px;
+}
+.section_4s_2 .item-content{
+	width: 160%;
+	height: 120%;
+}
+.section_4s_2 img{
+	margin-top: 30px;
+}
+.item1{
+	margin-left: 100px;
+}
+.section_3ss{
+	background-image: url("../images/ex1.png");
+	width: 100%;
+	float: left;
+	text-indent: 330px;
+	height: 600px;
+}
+.anhnen{
+	margin-top: 180px;
+}
+.order{
+	text-indent: 330px;
+	margin-top: 70px;
+}
+.section_4ss{
+	float: left;
+	width: 100%;
+}
+.NewArrivals{
+	margin-top: 100px;
+}
+#NewArrivalsID{
+	font-size: 35px;
+	margin-left: 500px;
+}
+.NewArrivals #Lorem{
+	margin-left: 370px;
+	margin-top: 30px;
+}
+.section_5ss{
+	float: left;
+	margin-top: 70px;
+}
+.section_5ss_1{
+	width: 100%;
+	float: left;
+}
+.section_5ss_1 .item{
+	float:left;
+	width: calc(100% / 4 - 130px);
+	text-align: center;	
+	height: 265px;
+	
+}
+.section_5ss_1 .item-content{
+	width: 160%;
+	height: 120%;
+}
+.section_5ss_1 .item-content img{
+	margin-top: 30px;
+}
+.section_5ss_2{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+}
+.bacham{
+	margin-left: 88px;
+	height: 50px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 100%;
+}
+.bacham span{
+	margin-top: 20px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #ff5912;
+	border:1px solid #ff5912;
+	border-radius: 100%;
+ }
+ .section_6ss{
+ 	float: left;
+ 	width: calc(100%);
+ 	margin-top: 130px;
+
+ }
+ .sale{
+ 	float: left;
+ 	width: calc(100%);
+ 	
+ }
+ .section_6ss_1{
+ 	float: left;
+ 	background-color: #ffffff;
+ 	width: 60%;
+ 	height: 80px;
+ }
+ .section_6ss_2{
+ 	float: right;
+ 	background-color: #ffffff;
+ 	width: 37%;
+ 	text-align: center;
+ 	height: 80px;
+ }
+ .section_6ss_1 img{
+ 	margin-left: 80px;
+ }
+ .section_6ss_1_1{
+ 	float: left;
+ 	width: 20%;
+ 
+ }
+.section_6ss_1_2{
+	float: left;
+	width: 55%;
+	
+}
+.section_6ss_1_3{
+	float: left;
+	width: 25%;
+}
+#WINTER{
+	font-size: 25px;
+	margin: 10px 80px;
+}
+#boot{
+	margin-left: 80px;
+}
+.section_6ss_1 .section_6ss_1_3 img{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#gia{
+	font-size: 30px;
+	margin-left: 25px;
+}
+.section_6ss_2 p{
+	margin-top: 20px;
+}
+#size{
+	margin-top: 10px;
+}
+.section_7ss{
+	float: left;
+	width: 100%;
+}
+#lpsum{
+	margin-left: 350px; 
+	margin-top: 25px;
+}
+.section_8ss{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+	margin-left: 1px;
+	height: 150px;
+	/*background-color: red;*/
+}
+.items{
+	float:left;
+	width: calc(100% / 3 - 30px);
+	text-align: center;
+	padding:0 15px 30px;
+}
+.item2 .item-content{
+	float:left;
+	width: 100%;
+	background-color: #ffffff;
+	height: 150px;
+}
+.item2 .img{
+	width: 40%;
+	height: 100%;
+	margin-top: 30px;
+	float: left;
+}
+.item2 .Reebok{
+	float: left;
+	width:  60%;
+	height: 100%;
+	margin-top: 40px;
+	margin-left: 0px;
+}
+.item-share{
+	width: calc(100% / 2);
+	float: left;
+}
+.Reebok img{
+	margin-top: 30px;
+	margin-right: 70px;
+}
+.Reebok #price-tag1{
+	margin-right: 40px;
+	margin-top: -30px;
+}
+.items .chia{
+	width: calc(100% / 2);
+	float: left;
+}
+.rate{
+	width: 50%;
+	float: left;
+}
+.rate img{
+	margin-left: 40px;
+}
+.sale1{
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+.sale1 span{
+	margin-left: 35px;
+}
+
+.resiter{
+	float: left;
+}
+.users img{
+	margin-top: 60px;
+	margin-left: 570px;
+}
+.dang_ki form{
+	margin-left: 465px;
+	margin-top: 5px;
+}
+.dang_ki input[type=text]{
+	width: 400px;
+	height: 40px;
+}
+.dang_ki input[type=number]{
+	width: 400px;
+	height: 40px;
+}
+.dang_ki input[type=email]{
+	width: 400px;
+	height: 40px;
+}
+.dang_ki input[type=tel]{
+	width: 400px;
+	height: 40px;
+}
+.check{
+	float: left;
+}
+.check1{
+	margin-top: 10px;
+	margin-left: 560px;
+}
+.check input[type=radio]{
+	display: none;
+	border-radius: 100%;
+}
+.check label:before{
+	content: " ";
+	width: 3px;
+	height: 3px;
+	border:5px solid #929292;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 100%;
+}
+.check input[type=radio]:checked + label:before{
+	border: 5px solid #185fad;
+	background-color: #185fad;
+
+}
+.check #dieu_khoan{
+	margin-left: 40px;
+}
+.dangki{
+	float: left;
+}
+.dangki1{
+	margin-left: 590px;
+	margin-top: 30px;
+}
+.dangki button[type=button]{
+	width: 170px;
+	height: 55px;
+	border-radius: 15%;
+	background-color: #ffffff;
+}
+.dangki #trolai{
+	font-size: 22px;
+	margin-top: 15px;
+	margin-left: 0px;
+}
